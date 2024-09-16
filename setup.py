@@ -92,7 +92,7 @@ if python_version == (2, 6):
 else:
     version_dependent_requires = [
         'lockfile',
-        'paramiko', 'pycrypto',
+        'paramiko', 'pycryptodome',
         # Needed for parsing human-readable dates (gselect uses it).
         'parsedatetime',
         # Needed by `gc3libs.cmdline`
